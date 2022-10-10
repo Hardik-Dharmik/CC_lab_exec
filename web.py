@@ -1,7 +1,7 @@
 from flask import Flask
 
-app = flask(__name__)
+app = Flask(__name__)
 
-@app.route('/')
+@app.route("/")
 def index():
-  return 'lord mayur'
+    return "hello, lord mayur here"
